@@ -235,6 +235,18 @@ class EnglishLocale(Locale):
         return '{0}th'.format(n)
 
 
+class IndonesiaLocale(Locale):
+    names = ["id", "id_id"]
+
+    month_names = ['', 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli',
+        'Agustus', 'September', 'Oktober', 'November', 'Desember']
+    month_abbreviations = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agust',
+        'Sep', 'Okt', 'Nov', 'Des']
+
+    day_names = ['', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu']
+    day_abbreviations = ['', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu']
+
+
 class ItalianLocale(Locale):
     names = ['it', 'it_it']
     past = '{0} fa'
